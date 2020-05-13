@@ -1,0 +1,354 @@
+body {
+    background: url(https://dsa.ntue.edu.tw/epaper/images/bodybg.gif) repeat;
+    font-family: "微軟正黑體";
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container {
+    width: 1000px;
+}
+
+.navbar {
+    background: #333;
+    padding-right: 4px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.dropdown-btn {
+    line-height: 23px;
+    font-size: 11px;
+    border: #999 1px solid;
+    color: #999;
+}
+
+.dropdown-btn:hover {
+    color: #999;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.dropdown-menu {
+    height: 150px;
+    overflow-y: scroll;
+    min-width: 10px;
+}
+
+.dropdown-menu::-webkit-scrollbar {
+    display: none;
+}
+
+.dropdown-item {
+    line-height: 23px;
+    font-size: 11px;
+    padding: 0 auto;
+}
+
+.nav-item {
+    line-height: 23px;
+    font-size: 11px;
+    margin-right: 9px;
+}
+
+.nav-link {
+    height: 32px;
+    color: #999;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ff57aa;
+    padding-bottom: 2px;
+    border-bottom-style: dashed;
+}
+
+.jumbotron-container {
+    position: relative;
+    width: 100%;
+}
+
+.jumbotron-bg {
+    width: 100%;
+}
+.period{
+    width: 100%;
+    position: absolute;
+    left: 8.8%;
+    bottom: 24%;
+}
+.period-n {
+    color: #e053a0;
+    background: #ffffff;
+    font-size: 14px;
+    padding: 1.5% 1.6%;
+}
+.period-t{
+    color: #ffffff;
+    background: #e053a0;
+    font-size: 12px;
+    padding: 0.5% 1.6%;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.period-t span{
+    font-family: "標楷體";
+    font-size: 19px;
+    line-height: 24px;
+}
+.qr {
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.54);
+    position: absolute;
+    right: 2%;
+    bottom: 24%;
+    color: #fff;
+    display: flex;
+}
+
+.qrcode {
+    padding: 6px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.qrcode img {
+    width: 70px;
+    margin-bottom: 4px;
+}
+
+.qr-text {
+    padding: 0 0 0 9px;
+    border-left: 2px solid #f39;
+    height: 90px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    font-size: 14px;
+}
+
+.contant {
+    padding: 9px 0 25px;
+}
+
+.h-title {
+    margin: 10px 0;
+    border-left: 4px solid #f39;
+    padding-left: 8px;
+    font-size: 28px;
+    line-height: 28px;
+    color: #000;
+    font-weight: bold;
+}
+
+.card-main {
+    margin: 20px 0 0;
+    padding: 0 5px;
+    margin-right: 20px;
+}
+
+.card-header1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    border-bottom: #ff3399 2px solid;
+    margin-bottom: 12px;
+    line-height: 30px;
+}
+
+.card-title {
+    background: linear-gradient(to right, #de2983 0%, #ea85b9 24%, #ffffff 55%, #ffffff 100%);
+    color: #fff;
+    margin: 5px 0;
+    font-size: 11px;
+    line-height: 18px;
+}
+
+.card-text {
+    list-style: none;
+    line-height: 20px;
+    margin-left: calc(1em + 5px);
+    text-indent: -1em;
+}
+
+.card-text::before {
+    content: "•";
+    color: #ff3399;
+    margin-right: 3px;
+}
+
+.link-13x {
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.link-13x:hover {
+    color: #ff57aa;
+    padding-bottom: 0.5px;
+    border-bottom-style: dashed;
+}
+
+.card-header2 {
+    font-size: 20px;
+    color: #333;
+    text-transform: uppercase;
+    border-bottom: #ff3399 4px solid;
+    margin-bottom: 12px;
+    line-height: 34px;
+}
+
+.card-body {
+    padding: 8px 17.5px;
+}
+
+.span-style {
+    color: #058dc7;
+    float: left;
+}
+
+.bg-gray {
+    background-color: #ebebeb;
+}
+
+.border-gray {
+    border-color: #ebebeb;
+}
+
+.card-content {
+    font-size: 14px;
+}
+
+p {
+    padding: 5px 0 5px 0;
+    margin: 0;
+}
+
+.link-14x {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.link-14x:hover {
+    text-decoration: none;
+    color: #ff57aa;
+    padding-bottom: 0.5px;
+    border-bottom-style: dashed;
+}
+
+.head-link {
+    font-size: 14px;
+    border-bottom: 5px dotted #ffe0e0;
+    padding-bottom: 5px
+}
+
+.span-style2 {
+    padding: 1px 10px 2px;
+    background-color: #ff57aa;
+    color: #fff;
+    border-radius: 3px;
+    line-height: 20px;
+    float: left;
+    margin-right: 5px;
+}
+
+.card-header3 {
+    border-right: #ff3399 3px solid;
+    line-height: 30px;
+    color: #ff3399;
+    font-size: 40px;
+    height: 33px;
+}
+
+.scrollToTop {
+    position: fixed;
+    right: 1.2vw;
+    bottom: 1vw;
+    z-index: 1000;
+}
+
+.scrollToTop img {
+    width: 5vw;
+}
+
+@media (max-width: 767px) {
+    .border-sm-0 {
+        border: 0;
+    }
+    .mt-sm-3-5 {
+        margin-top: 1.5rem;
+    }
+    .link-14x {
+        color: #000;
+        text-decoration: none;
+        font-size: 13px;
+        line-height: 23.5px;
+    }
+    .period-n {
+        font-size: 8px;
+    }
+    .period-t{
+        font-size: 5px;
+        padding: 0.2% 1.6%;
+        letter-spacing: 0.5px;
+    }
+    .period-t span{
+        font-size: 8px;
+        line-height: 14px;
+    }
+    .qr{
+        right: 8%;
+    }
+    .qr-text {
+        border-left: 0px solid #f39;
+        font-size: 10px;
+        line-height: 12px;
+        height: auto;
+    }
+}
+
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .qr {
+        right: 6%;
+    }
+    .qr-text {
+        border-left: 0px solid #f39;
+    }
+    .period-n {
+        font-size: 10.5px;
+    }
+    .period-t{
+        font-size: 7px;
+        padding: 0.5% 1.6%;
+        letter-spacing: 0.5px;
+    }
+    .period-t span{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .border-md-dotted {
+        border-right: 2px dotted;
+    }
+    .mt-md-4-5 {
+        margin-top: 2.5rem;
+    }
+    .dont-collapse-md {
+        height: auto !important;
+      }
+    
+}
